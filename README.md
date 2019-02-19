@@ -11,5 +11,5 @@ Ressourcen für dieses Spiel: Music: ToDo Sound: ToDo Visuals: selbstgemacht, fr
 
 Aktueller Stand: Spieleidee
 <div>
-<img src= "./Screenshots/FlagHunter_concept.jpg" width="250">
+<img src= "./Screenshots/concept_correct.jpg" width="250">
 </div>
