@@ -9,7 +9,7 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("MainScene");
     }
 
-    public void GoToWinOverScene()
+    public void GoToWinScene()
     {
         SceneManager.LoadScene("WinScene");
     }
