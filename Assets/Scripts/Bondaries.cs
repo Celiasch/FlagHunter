@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class Collectable : MonoBehaviour
+public class Bondaries : MonoBehaviour
 {
     public Text collected;
 
@@ -22,7 +22,11 @@ public class Collectable : MonoBehaviour
             sceneLoader.GoToWinScene();
         }
 
-        else if (collision.tag == TAGPLAYER && gameObject.tag == "BadApple")
+        else if (collision.tag == TAGPLAYER && gameObject.tag == "Sea")
+        {
+            sceneLoader.GoToGameOverScene();
+        }
+        else if (collision.tag == TAGPLAYER && gameObject.tag == "Ice")
         {
             sceneLoader.GoToGameOverScene();
         }

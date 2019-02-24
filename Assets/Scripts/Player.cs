@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
 
         minPosLeft = -2.60f;
         maxPosRight = 2.60f;
-        padding = 0.2f;
+        padding = 0.3f;
 
         SetupMoveBoundaries();
     }
