@@ -3,7 +3,6 @@ using UnityEngine.UI;
 
 public class Bondaries : MonoBehaviour
 {
-    public Text collected;
 
     private const string TAGPLAYER = "Player";
     private const string TAGSEA = "Sea";
