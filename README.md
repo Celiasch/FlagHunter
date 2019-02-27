@@ -17,8 +17,9 @@ Beschreibung des Spieles: Der Spieler muss zur Flagge gelangen (Durch links und 
 * Sound: ToDo 
 * Visuals: selbstgemacht, frei verwendbar für jede/n
 * Code Timer: angelehnt an Code von Carolin Hollweger https://github.com/CarolinHollweger/CrackIn/blob/master/CrackIn/Assets/Scripts/StopWatch.cs
+* Code Score: https://www.youtube.com/watch?v=QbqnDbexrCw
 
-**Aktueller Stand:** Anfänge der Realisierung in Unity
+**Aktueller Stand:** Realisierung in Unity, 60%
 <div>
 <img src= "./Screenshots/concept_V2.jpg" width="400">
 </div>
