@@ -4,11 +4,13 @@ public class Platforms : MonoBehaviour
 
 {
 
-    void Update()
 
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        transform.Translate(0, Time.deltaTime * 2, 0, Space.World);
-
+        if (collision.gameObject.tag.Equals ("Player"))
+        {
+            ScoreScript.scoreValue += 1;  
+        }
     }
 
 }
