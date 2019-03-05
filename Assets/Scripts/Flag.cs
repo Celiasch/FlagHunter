@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
 
-
-
 public class Flag : MonoBehaviour
 {
     public GameObject circleColor;
