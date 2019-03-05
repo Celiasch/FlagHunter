@@ -18,8 +18,9 @@ Beschreibung des Spieles: Der Spieler muss zur Flagge gelangen (Durch links und 
 * Visuals: selbstgemacht, frei verwendbar für jede/n
 * Code Timer: angelehnt an Code von Carolin Hollweger https://github.com/CarolinHollweger/CrackIn/blob/master/CrackIn/Assets/Scripts/StopWatch.cs
 * Code Score: https://www.youtube.com/watch?v=QbqnDbexrCw
+* Code Random Flag Color: angelehnt an Code von Susanne Meerwald-Stadler https://github.com/HS-Teaching/smeerwsRandomness/blob/master/Assets/MyGame/Scripts/Updater.cs
 
-**Aktueller Stand:** Realisierung in Unity, 60%
+**Aktueller Stand:** Realisierung in Unity, 80%
 <div>
 <img src= "./Screenshots/concept_V2.jpg" width="400">
 </div>
