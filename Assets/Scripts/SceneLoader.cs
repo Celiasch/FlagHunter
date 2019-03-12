@@ -3,7 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-
     public void GotoMainScene()
     {
         SceneManager.LoadScene("MainScene");
@@ -17,5 +16,4 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("GameOverScene");
     }
-
 }

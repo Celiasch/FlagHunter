@@ -10,7 +10,6 @@ public class Player : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
         minPosLeft = -2.60f;
         maxPosRight = 2.60f;
         padding = 0.3f;
@@ -18,12 +17,10 @@ public class Player : MonoBehaviour
         SetupMoveBoundaries();
     }
 
-
     // Update is called once per frame
     void Update()
     {
         Move();
-        //Methode Move() move character left right with arrow keys)
 
     }
     private void Move()

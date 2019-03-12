@@ -122,11 +122,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4964428608669158, guid: 714d830a7f27be5448e6f67158e98a91, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 8.7
+      value: 32.2
       objectReference: {fileID: 0}
     - target: {fileID: 4964428608669158, guid: 714d830a7f27be5448e6f67158e98a91, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -49.9
+      value: 424.1
       objectReference: {fileID: 0}
     - target: {fileID: 4964428608669158, guid: 714d830a7f27be5448e6f67158e98a91, type: 2}
       propertyPath: m_LocalPosition.z
@@ -350,6 +350,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneLoader: {fileID: 114113964917273648, guid: bcb939dbfa952814f86c25ace4e1f353,
     type: 2}
+  timer: {fileID: 0}
+  scoreTimeData: {fileID: 0}
 --- !u!1001 &66586552
 Prefab:
   m_ObjectHideFlags: 0
@@ -899,7 +901,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &838672791
 RectTransform:
@@ -2103,6 +2105,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneLoader: {fileID: 114113964917273648, guid: bcb939dbfa952814f86c25ace4e1f353,
     type: 2}
+  timer: {fileID: 0}
+  scoreTimeData: {fileID: 0}
 --- !u!1 &1837334720
 GameObject:
   m_ObjectHideFlags: 0
@@ -2267,6 +2271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9112da0f9b6152e42b81f3959c4b838f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: 0
 --- !u!1 &1904866179
 GameObject:
   m_ObjectHideFlags: 0
@@ -2419,6 +2424,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneLoader: {fileID: 114113964917273648, guid: bcb939dbfa952814f86c25ace4e1f353,
     type: 2}
+  timer: {fileID: 0}
+  scoreTimeData: {fileID: 0}
 --- !u!1 &1922624509 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1154051468947010, guid: 714d830a7f27be5448e6f67158e98a91,
@@ -2442,6 +2449,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneLoader: {fileID: 114113964917273648, guid: bcb939dbfa952814f86c25ace4e1f353,
     type: 2}
+  timer: {fileID: 1904763782}
+  scoreTimeData: {fileID: 11400000, guid: 98eb27db6f507974b8ad4e43e21d9cc2, type: 2}
 --- !u!61 &1922624513
 BoxCollider2D:
   m_ObjectHideFlags: 0
