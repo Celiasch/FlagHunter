@@ -1,12 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class DisplayCountdown : MonoBehaviour
 {
-
     public ScoreTimeData scoreTimeData;
     public Text textScore;
     public Text textTime;
@@ -14,12 +10,17 @@ public class DisplayCountdown : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        textTime.text = scoreTimeData.timer.ToString() + " sec";
+        textTime.text = FormatString(scoreTimeData.timer);
         textScore.text = "Touched Platforms: " + scoreTimeData.score.ToString();
     }
-    void Update()
-    {
 
-        textTime.text = string.Format("{0:00}:{1:00}.{2:00}");
+    public string FormatString(float timer)
+    {
+        string tmp = string.Format("{0:00}:{1:00}:{2:00}",
+            Mathf.Floor(timer / 60),
+            Mathf.Floor(timer) % 60,
+            Mathf.Floor((timer * 100) % 100));
+
+        return tmp;
     }
 }

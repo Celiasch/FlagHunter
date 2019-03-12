@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 
 public class Bondaries : MonoBehaviour
 {
@@ -30,4 +29,5 @@ public class Bondaries : MonoBehaviour
             sceneLoader.GoToGameOverScene();
         }
     }
+
 }
