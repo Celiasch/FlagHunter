@@ -26,6 +26,7 @@ Es handelt sich um ein 2D Game.
 * Code Random Flag Color: angelehnt an Code von Susanne Meerwald-Stadler https://github.com/HS-Teaching/smeerwsRandomness/blob/master/Assets/MyGame/Scripts/Updater.cs
 
 **Aktueller Stand:** 100% fertig
+
 **Lessons Learned:**
 * Werte in andere Scenes ausgeben mithilfe von Scriptable Objects
 * Random Funktion der Änderung von Farben
@@ -40,25 +41,24 @@ Bis jetzt exestiert nur ein Level (wie auch geplant). Deswegen befinden sich die
 
 **Start Screen**
 <div>
-<img src= "./Screenshots/StartScreen.png" width="400">
+<img src= "./Screenshots/StartScreen.png" width="200">
 </div>
 
 **Game Screen**
 <div>
-<img src= "./Screenshots/GameScreen.png" width="400">
+<img src= "./Screenshots/GameScreen.png" width="200">
 </div>
 
 **Game Over Screen**
 <div>
-<img src= "./Screenshots/DeathScreen.png" width="400">
+<img src= "./Screenshots/DeathScreen.png" width="200">
 </div>
 
 **Win Screen**
 <div>
-<img src= "./Screenshots/WinScreen.png" width="400">
+<img src= "./Screenshots/WinScreen.png" width="200">
 </div>
 
-**official Trailer: ** 
-https://youtu.be/XKk6o-OMVx8
+**official Trailer:** https://youtu.be/XKk6o-OMVx8
 
 **copyright by Clea Eliasch**
