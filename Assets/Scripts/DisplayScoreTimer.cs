@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class DisplayCountdown : MonoBehaviour
+public class DisplayScoreTimer : MonoBehaviour
 {
     public ScoreTimeData scoreTimeData;
     public Text textScore;

@@ -527,7 +527,7 @@ GameObject:
   - component: {fileID: 465342642}
   - component: {fileID: 465342641}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: DisplayScoreTimer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -970,7 +970,7 @@ GameObject:
   - component: {fileID: 1585061807}
   - component: {fileID: 1585061806}
   m_Layer: 0
-  m_Name: WinScreen
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
