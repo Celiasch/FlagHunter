@@ -32,8 +32,33 @@ Es handelt sich um ein 2D Game.
 
 **Limitations:** 
 Bis jetzt exestiert nur ein Level (wie auch geplant). Deswegen befinden sich die Platformen immer auf den gleichen Positionen bei jedem Spieldurchlauf. 
+
+**Konzept**
 <div>
 <img src= "./Screenshots/concept_V2.jpg" width="400">
 </div>
+
+**Start Screen**
+<div>
+<img src= "./Screenshots/StartScreen.png" width="400">
+</div>
+
+**Game Screen**
+<div>
+<img src= "./Screenshots/GameScreen.png" width="400">
+</div>
+
+**Game Over Screen**
+<div>
+<img src= "./Screenshots/DeathScreen.png" width="400">
+</div>
+
+**Win Screen**
+<div>
+<img src= "./Screenshots/WinScreen.png" width="400">
+</div>
+
+**official Trailer: ** 
+https://youtu.be/XKk6o-OMVx8
 
 **copyright by Clea Eliasch**
