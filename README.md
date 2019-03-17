@@ -42,21 +42,22 @@ Bis jetzt exestiert nur ein Level (wie auch geplant). Deswegen befinden sich die
 **Start Screen**
 <div>
 <img src= "./Screenshots/StartScreen.png" width="200">
-</div>
+
 
 **Game Screen**
-<div>
+
 <img src= "./Screenshots/GameScreen.png" width="200">
-</div>
+
 
 **Game Over Screen**
-<div>
+
 <img src= "./Screenshots/DeathScreen.png" width="200">
-</div>
+
 
 **Win Screen**
-<div>
+
 <img src= "./Screenshots/WinScreen.png" width="200">
+
 </div>
 
 **official Trailer:** https://youtu.be/XKk6o-OMVx8
