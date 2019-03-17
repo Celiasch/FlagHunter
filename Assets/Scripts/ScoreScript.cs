@@ -8,11 +8,12 @@ public class ScoreScript : MonoBehaviour {
 
 	void Start () {
         score = GetComponent<Text> ();
+        //reset score to 0
         scoreValue = 0;
 	}
 	
-	// Update is called once per frame
 	void Update () {
+        //Display Score Text on Game Screen
         score.text = "Touched: " + scoreValue;
 	}
 }

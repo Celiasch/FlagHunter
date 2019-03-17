@@ -6,28 +6,28 @@ public class Bondaries : MonoBehaviour
     private const string TAGSEA = "Sea";
     private const string TAGICE = "Ice";
     private const string TAGFLAG = "Flag";
-
     public SceneLoader sceneLoader;
     public Timer timer;
     public ScoreTimeData scoreTimeData;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == TAGPLAYER && gameObject.tag == "Flag")
+        //Flag Touch = Win and get values from timer and score
+        if (collision.tag == TAGPLAYER && gameObject.tag == TAGFLAG)
         {
             scoreTimeData.score = ScoreScript.scoreValue;
             scoreTimeData.timer = timer.timer;
             sceneLoader.GoToWinScene();
         }
-
-        else if (collision.tag == TAGPLAYER && gameObject.tag == "Sea")
+        //Sea Touch = Death
+        else if (collision.tag == TAGPLAYER && gameObject.tag == TAGSEA)
         {
             sceneLoader.GoToGameOverScene();
         }
-        else if (collision.tag == TAGPLAYER && gameObject.tag == "Ice")
+        //Ice Touch = Death
+        else if (collision.tag == TAGPLAYER && gameObject.tag == TAGICE)
         {
             sceneLoader.GoToGameOverScene();
         }
     }
-
 }

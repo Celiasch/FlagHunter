@@ -2,17 +2,18 @@
 
 public class Flag : MonoBehaviour
 {
-    public GameObject circleColor;
+    public GameObject flagColor;
     private System.Random rnd = new System.Random();
 
     void Start ()
     {
-        SpriteRenderer circleRenderer = circleColor.GetComponent<SpriteRenderer>(); // renamed the SpriteRenderer from circRenderer (not sure if intetional)
+        SpriteRenderer flagRenderer = flagColor.GetComponent<SpriteRenderer>();
         byte r = (byte)rnd.Next(0, 256);
         byte g = (byte)rnd.Next(0, 256);
         byte b = (byte)rnd.Next(0, 256);
-        byte a = (byte)rnd.Next(100, 256); // dont if the circle in the apha channel is intentional or by mistake
+        byte a = (byte)rnd.Next(100, 256); 
+        //100 so colors dont get to light and not easy to see
 
-        circleRenderer.color = new Color32(r, g, b, a);
+        flagRenderer.color = new Color32(r, g, b, a);
     }
 }

@@ -7,20 +7,20 @@ public class DisplayCountdown : MonoBehaviour
     public Text textScore;
     public Text textTime;
 
-    // Use this for initialization
     void Start()
     {
+        //Display Score Platform Text
         textTime.text = FormatString(scoreTimeData.timer);
-        textScore.text = "Touched Platforms: " + scoreTimeData.score.ToString();
+        textScore.text = "Touched: " + scoreTimeData.score.ToString() +" out of 25";
     }
 
+    //Format Timer  
     public string FormatString(float timer)
     {
         string tmp = string.Format("{0:00}:{1:00}:{2:00}",
             Mathf.Floor(timer / 60),
             Mathf.Floor(timer) % 60,
             Mathf.Floor((timer * 100) % 100));
-
         return tmp;
     }
 }
